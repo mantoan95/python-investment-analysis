@@ -7,3 +7,5 @@ The projects demonstrate practical Python usage for:
 - portfolio analysis
 - risk and performance evaluation
 - financial data manipulation and visualization
+
+⚠️ This repository does not provide any investment advice
