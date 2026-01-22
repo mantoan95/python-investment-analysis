@@ -1,56 +1,35 @@
-## 📈 Efficient Frontier & Portfolio Optimization (Python)
+## 📈 Efficient Frontier – Portfolio Optimization (Python)
 
 ### 🎯 Purpose
-This project applies Modern Portfolio Theory to identify optimal asset allocations
-based on historical data.
+This project applies Modern Portfolio Theory to explore how different asset
+allocations behave from a purely quantitative perspective.
 
-The objective is to analyze how a diversified multi-asset portfolio can be optimized
-in terms of risk and return, supporting investment decisions aligned with different
-risk profiles.
+The analysis is based on historical data and aims to illustrate the mathematical
+trade-off between risk and return, not to suggest an implementable
+investment strategy.
 
 ---
 
 ### 🔍 Approach
-- Use of historical price data from representative ETFs
-- Estimation of expected returns and covariance matrix
+- Historical ETF data across major asset classes
+- Estimation of expected returns and covariance
 - Construction of the Efficient Frontier
-- Identification of:
-  - Maximum Sharpe Ratio portfolio
-  - Minimum Volatility portfolio
-- Target return optimization based on user-defined objectives
+- Identification of theoretical portfolios (max Sharpe, min volatility)
 
 ---
 
-### Asset Universe
-The portfolio includes the main asset classes typically used by a European retail investor:
--  US Equity
--  European Equity
--  Asian Equity
--  Gold
--  European Government Bonds
+### 🧱 Asset Universe
+The portfolio includes diversified asset classes (equities, bonds and gold)
+commonly used by European investors.
 
-To ensure realistic diversification, a minimum allocation constraint is applied
-to each asset.
+Minimum weight constraints are applied to improve diversification, but the resulting
+allocations should be interpreted as mathematical outcomes, not portfolio recommendations.
 
 ---
 
-### 📊 Metrics
-- Expected annualized return
-- Annualized volatility
-- Sharpe ratio
-- Asset weights of optimized portfolios
-- Correlation matrix between assets
+### ⚠️ Important Notes
+- Past performance does not guarantee future results
+- Optimized weights reflect historical relationships only
+- Results are sensitive to the selected time period and assumptions
 
----
-
-### 📈 Outputs
-- Efficient Frontier visualization
-- Optimal portfolio weights (Max Sharpe & Min Volatility)
-- Portfolio performance summary
-- Correlation heatmap for diversification analysis
-
----
-
-### ⚠️ Disclaimer
-This project is for educational and analytical purposes only and does not
-constitute investment advice.
+This project is intended for educational and analytical purposes only.
