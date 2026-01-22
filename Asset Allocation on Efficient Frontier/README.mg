@@ -21,13 +21,13 @@ risk profiles.
 
 ---
 
-### 🧱 Asset Universe
+### Asset Universe
 The portfolio includes the main asset classes typically used by a European retail investor:
-- 🇺🇸 US Equity
-- 🇪🇺 European Equity
-- 🌏 Asian Equity
-- 🥇 Gold
-- 🏦 European Government Bonds
+-  US Equity
+-  European Equity
+-  Asian Equity
+-  Gold
+-  European Government Bonds
 
 To ensure realistic diversification, a minimum allocation constraint is applied
 to each asset.
