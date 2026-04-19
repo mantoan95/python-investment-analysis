@@ -27,4 +27,7 @@ It simulates thousands of possible future price paths for a multi-asset portfoli
 The simulation is based on:
 - Geometric Brownian Motion (GBM)
 - Cholesky Decomposition
-  
+
+⚠️ Important Disclaimer
+This project is for educational and research purposes only.
+It is not a financial advice.
